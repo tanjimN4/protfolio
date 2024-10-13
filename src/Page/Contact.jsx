@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaDiscord, FaFacebookMessenger, FaTelegramPlane, FaWhatsapp } from 'react-icons/fa';
+import { FaDiscord, FaFacebookMessenger, FaPhoneAlt, FaTelegramPlane, FaWhatsapp } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
 import image from '../assets/Screenshot 2024-10-13 000304.png'
+import { MdAlternateEmail } from 'react-icons/md';
 const Contact = () => {
     const location = useLocation()
     return (
@@ -17,6 +18,11 @@ const Contact = () => {
                                 <h1 className="text-2xl font-bold font-nunito">Tanjim</h1>
                                 <p className='p-2 text-lg'>Feel free to reach out for any inquiries or collaboration opportunities. You can contact me via email at <a className='text-blue-400' href="mailto:tanjimahemed7@gmail.com">tanjimahemed7@gamil.com</a>, or connect with me on <a className='text-blue-600' href="">Whats App</a>. I am available for project discussions, consultations, and any other messages you might have.</p>
                             </div>
+                        </div>
+                        <h1 className='my-10 text-5xl font-bold'>Contact with me</h1>
+                        <div className='my-10'>
+                           <h1 className='flex text-center items-center gap-5'><MdAlternateEmail className='hover:bg-green-400 rounded-2xl text-5xl' /> <p className='text-3xl'>tanjimahemed7@gamil.com</p></h1>
+                           <h1 className='flex text-center items-center gap-5'><FaPhoneAlt className='hover:bg-green-400 rounded-2xl text-5xl' /> <p className='text-3xl'>01975886500</p></h1>
                         </div>
                     </div> :
                     <div>
