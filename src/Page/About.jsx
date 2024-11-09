@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import image from '../assets/Screenshot 2024-10-13 000304.png'
+import myimage from '../assets/my.png'
 const About = () => {
     const location = useLocation()
 
@@ -44,7 +45,7 @@ const About = () => {
                     </div>
                     : <div className='mx-10 lg:flex'>
                         <div className='m-5 flex-1 justify-center items-center'>
-                            <div className='flex justify-center'><img className=' h-[500px] object-cover object-top border-2' src="https://i.ibb.co.com/LnxHy2Z/IMG-20240629-201958-removebg-preview.png" alt="" /></div>
+                            <div className='flex justify-center'><img className=' h-[500px] object-cover object-top border-2' src={myimage} alt="" /></div>
                         </div>
                         <div className='relative flex-1'>
                             {/* Span is now only visible on large devices */}
