@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <div className="pb-5 reloadanimations mt-16 px-2 w-full flex flex-col items-center gap-5">
             <a
-                href={resume}
+                href='https://docs.google.com/document/d/1NzAg9U30D337AO6HYd5YYbC-msvhuoNL55M-IyvNF-w/edit?usp=sharing'
                 download
                 target="_blank"
                 rel="noopener noreferrer"
