@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Resume = () => {
+    const resume=`https://drive.google.com/file/d/1oaqUtqW3ibw5kYB9AIJMl93TsLz6yd65/view?usp=sharing`
     return (
         <div className="pb-5 reloadanimations mt-16 px-2 w-full flex flex-col items-center gap-5">
             <a
