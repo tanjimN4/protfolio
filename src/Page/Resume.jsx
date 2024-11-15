@@ -1,11 +1,10 @@
 import React from 'react';
-import resume from '../pdf/Tanjim Ahmed Chowdhury - Google Docs.pdf'
 
 const Resume = () => {
     return (
         <div className="pb-5 reloadanimations mt-16 px-2 w-full flex flex-col items-center gap-5">
             <a
-                href='https://docs.google.com/document/d/1NzAg9U30D337AO6HYd5YYbC-msvhuoNL55M-IyvNF-w/edit?usp=sharing'
+                href='https://drive.google.com/file/d/1oaqUtqW3ibw5kYB9AIJMl93TsLz6yd65/view?usp=sharing'
                 download
                 target="_blank"
                 rel="noopener noreferrer"
